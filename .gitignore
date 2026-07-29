@@ -33,3 +33,9 @@ production/*.ipc
 
 # Preview
 preview.png
+
+# VSCode local history
+.history/
+
+# Fabrication output (fresh gerbers should be re-generated)
+production/
