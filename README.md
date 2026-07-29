@@ -35,7 +35,7 @@ USB-C ─┬─► MCP73831 (Charger) ──► Li-Po Battery
 | Board dimensions | 90 mm × 17 mm |
 | Layer count | 4 (F.Cu, In1.Cu, In2.Cu, B.Cu) |
 | Board thickness | 1.6 mm |
-| Copper weight | 1 oz (0.035 mm) outer, 0.5 oz inner |
+| Copper weight | 1 oz (0.035 mm) all layers |
 | Dielectric | FR4 (εr = 4.5) |
 | Input power | USB VBUS (5 V) or Li-Po battery (3.7–4.2 V) |
 | Charger current | 500 mA (set by R1 = 2 kΩ) |
@@ -45,17 +45,17 @@ USB-C ─┬─► MCP73831 (Charger) ──► Li-Po Battery
 | Rail | Voltage | Regulator | Max Current | Supplies |
 |------|---------|-----------|-------------|----------|
 | VSYS | Battery / 5V | (direct from USB-Diode-BAT path) | — | Input to all regulators |
-| 3.3 V | 3.3 V | AMS1117-3.3 (U3) | 800 mA | ESP32-S3 core + I/O, flash, mic |
-| 1.3 V | 1.3 V | AP2121AK-1.3 (U4) | 400 mA | Camera core (1.3v rail) |
+| 3.3 V | 3.3 V | AMS1117-3.3 (U4) | 800 mA | ESP32-S3 core + I/O, flash, mic |
+| 1.3 V | 1.3 V | AP2121AK-1.3 (U6) | 400 mA | Camera core (1.3v rail) |
 | 2.8 V | 2.8 V | LP2985-2.8 (U5) | 150 mA | Camera analog/digital IO (2.8v rail) |
 
 ### Power Path
 
-1. **USB VBUS** feeds the MCP73831-2-OT (U2) Li-Po charger IC.
+1. **USB VBUS** feeds the MCP73831-2-OT (U3) Li-Po charger IC.
 2. Battery connects through AO3401A (Q1) P-FET for reverse-polarity protection.
 3. The FET's output (VSYS) is shared between USB and battery — no external power mux needed (Q1's body diode provides OR-ing).
 4. VSYS powers all three LDOs in parallel.
-5. SS14 (D2) Schottky diode provides additional input protection.
+5. SS14 (D4) Schottky diode provides additional input protection.
 
 ## Microcontroller
 
@@ -64,8 +64,8 @@ USB-C ─┬─► MCP73831 (Charger) ──► Li-Po Battery
 - Dual-core Xtensa LX7 @ up to 240 MHz
 - Built-in Wi-Fi 802.11 b/g/n + BLE 5.0
 - 512 kB SRAM, supports external PSRAM
-- 40 MHz main crystal (Y1, 2520 package, 10 ppm) with 12 pF load caps
-- CHIP_PU (pin 4) pulled high with R8, with reset button SW2
+- 40 MHz main crystal (Y2, 2520 package, 10 ppm) with 15 pF load caps
+- CHIP_PU (pin 4) pulled high with a resistor, with reset button (Reset)
 
 ### GPIO Allocation
 
@@ -75,7 +75,7 @@ USB-C ─┬─► MCP73831 (Charger) ──► Li-Po Battery
 | GPIO10–16, GPIO38–40, GPIO47–48 | Camera parallel data bus | J4 FFC connector |
 | GPIO17 | I2C SCL | J4 pin 5 (camera control) |
 | GPIO18 | I2C SDA | J4 pin 4 (camera control) |
-| GPIO0 | Boot mode selection | Flash button SW1 |
+| GPIO0 | Boot mode selection | Flash button |
 | GPIO46 | Strapping pin | Pull-up/pull-down resistors |
 | U0TXD, U0RXD | Serial console | Debug UART |
 
@@ -83,7 +83,7 @@ USB-C ─┬─► MCP73831 (Charger) ──► Li-Po Battery
 
 ## Memory
 
-**W25Q128JVS (U6)** — 128 Mbit (16 MB) SPI flash, SOIC-8 package.
+**W25Q128JVS (U2)** — 128 Mbit (16 MB) SPI flash, SOIC-8 package.
 
 | ESP32-S3 Pin | Flash Pin | Net |
 |-------------|-----------|-----|
@@ -156,21 +156,20 @@ No SBU lines or e-marker chip — this is a straightforward USB 2.0 sink configu
 
 ## Battery Charger
 
-**MCP73831-2-OT (U2)** — Single-cell Li-Po linear charger.
+**MCP73831-2-OT (U3)** — Single-cell Li-Po linear charger.
 
 | Component | Value | Purpose |
 |-----------|-------|---------|
-| R1 | 2 kΩ | Sets charge current to 500 mA |
-| R2 | 4.7 kΩ | PROG resistor pull-up |
-| STAT | LED (D3) | Charge status indicator — on during charging, off when done, blink for fault |
+| R1 | 2 kΩ | PROG resistor — sets charge current to 500 mA |
+| STAT | LED (D1) | Charge status indicator — on during charging, off when done, blink for fault |
 
 ## Status LEDs
 
 | LED | Color | Driven By | Function |
 |-----|-------|-----------|----------|
-| D1 | Blue/Green (0603) | GPIO — ESP32-S3 | User indicator |
-| D2 (STAT) | Red (0603) | MCP73831 STAT | Charging status |
-| D3 | Blue/Green (0603) | GPIO — ESP32-S3 | User indicator |
+| D1 | Red (0603) | MCP73831 STAT | Charging status — on during charging, off when done |
+| D2 | (0603) | VDD_CPU via 470 Ω | Power indicator (always on when 3.3 V present) |
+| D3 | (0603) | GPIO1 — ESP32-S3 | User indicator |
 
 All LEDs have ~470 Ω series current-limiting resistors.
 
@@ -184,29 +183,30 @@ This is a PCB trace antenna based on Texas Instruments application note SWRA117D
 
 | Layer | Material | Thickness | Type |
 |-------|----------|-----------|------|
-| Top solder mask | — | — | — |
+| Top solder mask | — | 0.01 mm | — |
 | F.Cu | Copper | 0.035 mm | Signal + traces |
-| Prepreg | FR4 (εr = 4.5) | 0.2 mm | — |
-| In1.Cu | Copper | — | Signal routing |
-| Core | FR4 | 1.13 mm | — |
-| In2.Cu | Copper | — | Signal routing |
-| Prepreg | FR4 (εr = 4.5) | 0.2 mm | — |
+| Prepreg | FR4 (εr = 4.5) | 0.1 mm | — |
+| In1.Cu | Copper | 0.035 mm | Signal routing |
+| Core | FR4 | 1.24 mm | — |
+| In2.Cu | Copper | 0.035 mm | Signal routing |
+| Prepreg | FR4 (εr = 4.5) | 0.1 mm | — |
 | B.Cu | Copper | 0.035 mm | Signal + traces |
-| Bottom solder mask | — | — | — |
+| Bottom solder mask | — | 0.01 mm | — |
 
 ## Component Count
 
 | Category | Count |
 |----------|-------|
-| Resistors (0402) | ~14 |
-| Capacitors (0402) | ~24 |
+| Resistors (0402) | 17 |
+| Capacitors (0402) | 36 |
 | Inductors | 2 |
 | ICs | 7 |
-| Connectors | 2 |
+| Connectors | 3 (USB-C, FFC, pin header) |
 | LEDs (0603) | 3 |
 | Push buttons | 2 |
 | Crystal | 1 |
 | Antenna | 1 |
+| Transistor (P-FET) | 1 |
 | Test points | 2 |
 | Schottky diode | 1 |
 | **Total footprints** | **~76** |
@@ -215,7 +215,7 @@ This is a PCB trace antenna based on Texas Instruments application note SWRA117D
 
 ### Prerequisites
 
-- **KiCad 10.0 or later** (saved in v10 format — not backward compatible with KiCad 9.x)
+- **KiCad 9.x or later** (files saved with generator v9.0)
 - A 24-pin 0.5 mm pitch FFC camera module (OV2640/OV5640 compatible)
 
 ### Opening the Project
@@ -262,15 +262,18 @@ See [`SpecVue.csv`](./SpecVue.csv) — all components listed with DigiKey part n
 | Ref | Part | Package | DigiKey (or equivalent) |
 |-----|------|---------|------------------------|
 | U1 | ESP32-S3 | QFN-56 7×7 mm | Espressif |
-| U2 | MCP73831-2-OT | SOT-23-5 | MCP73831T-2ATI/OT |
-| U3 | AMS1117-3.3 | SOT-223 | AMS1117-3.3 |
-| U4 | AP2121AK-1.3 | SOT-23-5 | AP2121AK-1.3TRG1 |
+| U2 | W25Q128JVS | SOIC-8 | W25Q128JVS |
+| U3 | MCP73831-2-OT | SOT-23-5 | MCP73831T-2ATI/OT |
+| U4 | AMS1117-3.3 | SOT-223 | AMS1117-3.3 |
 | U5 | LP2985-2.8 | SOT-23-5 | LP2985-2.8DBVR |
-| U6 | W25Q128JVS | SOIC-8 | W25Q128JVS |
+| U6 | AP2121AK-1.3 | SOT-23-5 | AP2121AK-1.3TRG1 |
 | U7 | MP34DT05TR-A | Custom (MEMS mic) | MP34DT05TR-A |
 | J1 | USB-C (14-pin) | HC-TYPE-C-16P-01A | HCTL |
+| J2 | Programming header | 1×02 pin header 2.54 mm | — |
 | J4 | Molex 5034802400 | 24-pin FFC 0.5 mm | 5034802400 |
-| Y1 | 40 MHz crystal | 2520 SMD | — |
+| Y2 | 40 MHz crystal | 2520 SMD 10 ppm | — |
+| Q1 | AO3401A | SOT-23 | P-Channel MOSFET |
+| D4 | SS14 | SMA | Schottky diode |
 
 ## Firmware Development
 
