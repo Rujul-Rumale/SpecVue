@@ -54,7 +54,7 @@
 		(property ki_fp_filters "MP34DT05TR-A_STM")
 		(path "/e8fd0dd6-3c5b-4382-b295-d223b832db28")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6764 -2.1717)

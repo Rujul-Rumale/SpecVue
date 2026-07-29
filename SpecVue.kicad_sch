@@ -12400,7 +12400,7 @@
 			(uuid "6bc5795f-7920-4988-a67e-096c8155bc43")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR042")
 					(unit 1)
@@ -12684,7 +12684,7 @@
 			(uuid "ed429017-9840-4c21-92ed-eaca43b14b63")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "C41")
 					(unit 1)
@@ -12858,7 +12858,7 @@
 			(uuid "8fbb744f-2d2c-473e-9691-bc797c7ac879")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "R3")
 					(unit 1)
@@ -13389,7 +13389,7 @@
 			(uuid "edc4c440-af65-4902-9cb4-8cec4dda8e86")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR037")
 					(unit 1)
@@ -14136,7 +14136,7 @@
 			(uuid "695b2301-d2ba-4d1f-b479-a9bfa142f420")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR043")
 					(unit 1)
@@ -14309,7 +14309,7 @@
 			(uuid "65059f2d-8c78-4578-a573-4edab1fe09c0")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "R5")
 					(unit 1)
@@ -14374,7 +14374,7 @@
 			(uuid "ebace9d8-fab3-4bd1-8a49-4fefa9370997")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR03")
 					(unit 1)
@@ -14723,7 +14723,7 @@
 			(uuid "83e89bd4-fb16-4b41-b6f9-508c8cc75682")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "C5")
 					(unit 1)
@@ -15647,7 +15647,7 @@
 			(uuid "69f8465e-ff4d-40d5-86e3-a57eb69d5e51")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "C1")
 					(unit 1)
@@ -15952,7 +15952,7 @@
 			(uuid "ab0c063e-d5f0-44cf-8bca-8d2541277fde")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR036")
 					(unit 1)
@@ -16059,7 +16059,7 @@
 			(uuid "719af756-e275-468b-8db5-7ec7574e0f4e")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "R6")
 					(unit 1)
@@ -16558,7 +16558,7 @@
 			(uuid "0e4f4a81-74fb-43b5-a586-5c3776a6df87")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "R7")
 					(unit 1)
@@ -17071,7 +17071,7 @@
 			(uuid "05b4a6d6-fa3b-46ef-a2a4-e598d1e4067a")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "C34")
 					(unit 1)
@@ -17827,7 +17827,7 @@
 			(uuid "9f9c3f68-e855-4ccb-86af-d81aff241e2e")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "C21")
 					(unit 1)
@@ -18111,7 +18111,7 @@
 			(uuid "b5027752-cd7f-4152-8f5b-9462bf8ffa66")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "C12")
 					(unit 1)
@@ -18904,7 +18904,7 @@
 			(uuid "c2330e69-183e-4c9f-a820-4abd86473347")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "C9")
 					(unit 1)
@@ -19122,7 +19122,7 @@
 			(uuid "7b250506-eb9b-478e-8863-53d6b206e980")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "C27")
 					(unit 1)
@@ -19188,7 +19188,7 @@
 			(uuid "914da1f0-465f-41d3-8cff-ee3e0d043ac8")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR01")
 					(unit 1)
@@ -19253,7 +19253,7 @@
 			(uuid "02b15ebf-6339-473d-8dda-f8296401a5be")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR038")
 					(unit 1)
@@ -19802,7 +19802,7 @@
 			(uuid "4e9c31b6-631a-4d69-b5b9-627bc23aed80")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#+3V01")
 					(unit 1)
@@ -20085,7 +20085,7 @@
 			(uuid "e00e5fd8-bf80-40c1-92ca-6ea2000552bf")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "C24")
 					(unit 1)
@@ -20369,7 +20369,7 @@
 			(uuid "ff26de4f-566c-4ef3-8192-88bd48ab9712")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR047")
 					(unit 1)
@@ -21160,7 +21160,7 @@
 			(uuid "87930097-2cee-4a4a-981b-482a7c63d915")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "C30")
 					(unit 1)
@@ -21269,7 +21269,7 @@
 			(uuid "2eea5d1d-18b3-4a1a-a45a-2966bf981874")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "C23")
 					(unit 1)
@@ -22377,7 +22377,7 @@
 			(uuid "1f017aed-a938-4349-9d82-1c16f15e2516")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR040")
 					(unit 1)
@@ -22709,7 +22709,7 @@
 			(uuid "3712e13c-cdc9-4b4c-ac14-dd3a10b89e1f")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR039")
 					(unit 1)
@@ -22818,7 +22818,7 @@
 			(uuid "49950f8a-ce5c-418c-8788-d21b0386597a")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "C29")
 					(unit 1)
@@ -22993,7 +22993,7 @@
 			(uuid "c94e3dd3-f55b-4939-86fa-ad7ce4734f8f")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "C14")
 					(unit 1)
@@ -23167,7 +23167,7 @@
 			(uuid "e8a2a2e5-d683-41ea-86ef-4804b8e46e5c")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "C28")
 					(unit 1)
@@ -23552,7 +23552,7 @@
 			(uuid "43f82eff-6cf4-4c95-9f6a-85c37d072e4e")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#PWR041")
 					(unit 1)
@@ -23790,7 +23790,7 @@
 			(uuid "62d99c5c-91ad-49a7-aa3b-92ddcddff309")
 		)
 		(instances
-			(project "esp32_s3_project"
+			(project "SpecVue"
 				(path "/b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
 					(reference "#+3V03")
 					(unit 1)

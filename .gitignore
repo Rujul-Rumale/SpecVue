@@ -3,6 +3,7 @@
 *~
 _backup_*.sch
 _backup_*.kicad_pcb
+*-backups/
 fp-info-cache
 *.lck
 

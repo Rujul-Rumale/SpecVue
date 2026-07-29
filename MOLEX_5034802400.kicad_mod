@@ -219,7 +219,7 @@
 		)
 		(path "/db49f770-be51-470f-b725-c672809e4e9a")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts

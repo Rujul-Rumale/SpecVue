@@ -335,7 +335,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/04d1a05d-7071-4ec0-a9eb-76aaea096fd6")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.7 -1.78)
@@ -868,7 +868,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/cf43085f-f64b-4427-a6aa-e9d04a7b6551")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 0.735)
@@ -1154,7 +1154,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/08c856ac-142d-4fa2-a12c-50a1c9685f4e")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 0.735)
@@ -1440,7 +1440,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/984be68e-7d97-4086-9a65-13b39ab018db")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -1704,7 +1704,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/90755196-8b9e-4fdf-9a7a-80cc66680ffb")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -2072,7 +2072,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/1c81e21d-431e-47e7-873e-47eecfb0343e")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -2238,7 +2238,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/837e0daf-5444-4a0e-8e64-39fb5d26fd6c")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -2502,7 +2502,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/92d893b2-5de0-46be-8d28-687af4e0bc75")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 0.735)
@@ -2790,7 +2790,7 @@
 		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/29f6a869-309c-4c15-a2e5-451236da6449")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.85 -3.41)
@@ -3118,7 +3118,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a93713ec-45a4-41ef-b310-0281f6cb5833")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -3317,7 +3317,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/32507e3f-b0db-4dd6-ad90-226a949d5f07")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -3735,7 +3735,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5b536ed8-f68d-4114-a2b4-46020fa4487d")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -3999,7 +3999,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e0ab7b24-b5ac-4408-b9cc-cfa12b4e747a")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -4263,7 +4263,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/64e31210-50f4-4438-8fd4-d4fdf8f20d7d")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -4527,7 +4527,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/52e6e059-2f0b-4679-8fc0-abc1a0161b1c")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -4791,7 +4791,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0cdf21b9-2d81-46b1-9989-1d1517c0f9ec")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -5055,7 +5055,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/adf77d45-235d-42c7-9946-5805d59c145b")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -5319,7 +5319,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8ca1b141-5f02-4cc6-b502-fcddafedd5be")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -5583,7 +5583,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6667bc89-f450-432f-a2dc-85a9119b1a35")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -5847,7 +5847,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4d46a581-4a81-4c64-bbd6-b0b7ce010dea")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -6111,7 +6111,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/65d97598-b5ff-4960-8cad-1bc9646e2dee")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -6375,7 +6375,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3f864f46-e531-400a-9584-35f1230fd8f1")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -6639,7 +6639,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/075b0f62-daf7-4012-a0e6-bc586745176c")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -6903,7 +6903,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2bb4a3ef-cf13-4424-afa9-f0b1f8ef8ae6")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -7141,7 +7141,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/70028f1f-5872-43dc-be74-2faf4846648c")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.93 -0.47)
@@ -7387,7 +7387,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d0174e60-afd3-452a-85e5-649015f585ca")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -7752,7 +7752,7 @@
 		)
 		(path "/db49f770-be51-470f-b725-c672809e4e9a")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -8636,7 +8636,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9790d287-597f-4355-bcc4-20f207d02741")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -8900,7 +8900,7 @@
 		(property ki_fp_filters "*SOIC*5.3x5.3mm*P1.27mm*")
 		(path "/0273a451-e53f-4c51-860f-ebb76eb200b4")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.76 2.76)
@@ -9388,7 +9388,7 @@
 		(property ki_fp_filters "QFN*1EP*7x7mm*P0.4mm*")
 		(path "/863c6dfe-f759-4320-9653-d7428a693d7e")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.61 3.61)
@@ -10421,7 +10421,7 @@
 		)
 		(path "/cd9d5a34-0110-45a7-99a9-035405c05c63")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr exclude_from_pos_files)
 		(net_tie_pad_groups "1,2")
 		(fp_poly
@@ -10750,7 +10750,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/89f05bb0-52c6-4e52-a17f-1a82162cc7b8")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -11014,7 +11014,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ce68006b-6622-4c6b-8fa0-adb0438b3cbf")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -11213,7 +11213,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/2ff21886-cd6d-45ab-87b2-947d893d2b9c")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -11631,7 +11631,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/af05913d-013a-4401-8f31-1facfd1dc23e")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -11843,7 +11843,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/54329eed-20ea-48f2-99af-99786148de33")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
@@ -12097,7 +12097,7 @@
 		(property ki_fp_filters "MP34DT05TR-A_STM")
 		(path "/e8fd0dd6-3c5b-4382-b295-d223b832db28")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6764 -2.1717)
@@ -12558,7 +12558,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c333a179-d003-4115-8d85-f013b835c80d")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -12772,7 +12772,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/6d96f036-00f0-41fd-bb8d-0dda149fca1c")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -12938,7 +12938,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9cb06d43-adb5-4332-9c82-1ec24e899d25")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -13176,7 +13176,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/b9d13637-1e3c-4373-8210-4f6155723458")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.93 0.47)
@@ -13422,7 +13422,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fa69b576-f82c-4b68-bc5c-a2c7efad22ae")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -13661,7 +13661,7 @@
 		)
 		(path "/b21ccf41-4506-4d98-b81c-d17335ff9fd4")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.2 0.05)
@@ -13989,7 +13989,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/c3a450a1-5497-4e8d-bb86-f3f2ae0503b0")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.71 1.46)
@@ -14218,7 +14218,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cf6ae80a-b815-4296-92dd-109cb7bf942c")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -14482,7 +14482,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7d9ff0ca-253d-454a-94e1-a82aa06b5772")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -14746,7 +14746,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/bc0cc8c4-892f-46a2-9da7-e86d76103597")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -15010,7 +15010,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/27cc8f3a-aeb5-42b9-9a5b-a2a9c7f8ac28")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -15274,7 +15274,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/eb3833d1-0c5c-4d1b-8322-c43390003551")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -15538,7 +15538,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c687f18b-bc05-4b40-b843-423dc8990f57")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -15802,7 +15802,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/557e512d-4973-4ce8-8cfd-f9b4b708cadb")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -16066,7 +16066,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9433d8c1-471e-4805-a976-0e7700509758")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -16305,7 +16305,7 @@
 		)
 		(path "/7d243db7-8908-4c80-82c9-29b0e2f53b5b")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.2 0.05)
@@ -16634,7 +16634,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4a29c1e9-98e6-41ee-895b-768046fa7968")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -16898,7 +16898,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ac46f456-2382-458d-9358-a4a8c3ad29c2")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -17162,7 +17162,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/666e571f-e554-4211-b71c-be1967921360")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -17426,7 +17426,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/432a15d5-34d5-4e19-bb04-051b8bf036e3")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -17690,7 +17690,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/96ff5b2d-1455-48a5-baa8-cdda0b31ce81")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -17954,7 +17954,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/9eebc7cc-f49f-4eb8-a5be-4dce54546995")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -18352,7 +18352,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a5ce2e24-067b-4741-afea-c979e3dfc89a")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -18616,7 +18616,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4a3a3a23-560c-43af-be64-0801ab1193cd")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -18880,7 +18880,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6bd27d10-9ce3-49b7-bc85-cd696a06a602")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -19153,7 +19153,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d57f1398-7ad0-494d-86c9-2f69aa37784b")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -19427,7 +19427,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3a6a4737-378f-4383-b874-eb9c61164752")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -19701,7 +19701,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/dd6ce0be-69dd-4fb1-a76d-8ece4eb9dedf")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -19975,7 +19975,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/86dd6404-0a33-40d0-a6c8-6741bd2646c7")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -20249,7 +20249,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/bd08df0f-e3ad-457f-ae1f-f67b6d44a30c")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -20525,7 +20525,7 @@
 		(property ki_fp_filters "D*SMA*")
 		(path "/6efbbfbf-6898-43e7-87f3-a1de0c6dda5e")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.51 -1.65)
@@ -20871,7 +20871,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0f662210-9cf0-4246-9470-0826590bd0b8")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -21145,7 +21145,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e6d5170c-f842-4273-a2b9-951d8baf48e9")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -21419,7 +21419,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8e8d4535-6bda-4d42-9e4a-ae12c22ab89d")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -21693,7 +21693,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5737253a-418d-4bfb-a751-197218596f7d")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -21968,7 +21968,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7aa9a267-7021-43a7-9cfc-f5ab8b44ef74")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -22242,7 +22242,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/091ddd7a-b1e3-4d39-8cf0-84a0172cc88f")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -22516,7 +22516,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/112738ca-78d2-45d3-93be-3dbbe923b362")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -22790,7 +22790,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e22e3d2c-e8c9-41d2-bec0-851a6aa00299")
 		(sheetname "/")
-		(sheetfile "esp32_s3_project.kicad_sch")
+		(sheetfile "SpecVue.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)

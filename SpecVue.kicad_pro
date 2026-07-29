@@ -471,7 +471,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "esp32_s3_project.kicad_pro",
+    "filename": "SpecVue.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -538,7 +538,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "production\\esp32_s3_project.csv",
+    "bom_export_filename": "production\\SpecVue.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -701,8 +701,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "esp32_s3_project.kicad_sch",
-        "name": "esp32_s3_project",
+        "filename": "SpecVue.kicad_sch",
+        "name": "SpecVue",
         "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ]

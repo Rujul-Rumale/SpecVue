@@ -1,4 +1,4 @@
-# ESP32-S3 Smart Specs
+# SpecVue
 
 A 4-layer PCB for smart glasses featuring an ESP32-S3 with camera live streaming and on-device object classification over Wi-Fi.
 
@@ -222,8 +222,8 @@ The antenna is a compact ceramic chip antenna with a ground clearance keep-out a
 
 ```bash
 git clone <repo-url>
-cd ESP32_S3_proj
-# Open esp32_s3_project.kicad_pro in KiCad
+cd SpecVue
+# Open SpecVue.kicad_pro in KiCad
 ```
 
 ### First-Time Setup — Footprint Libraries
@@ -257,7 +257,7 @@ Then update the footprints via **Tools → Update Footprints from Library** and 
 
 ### Bill of Materials
 
-See [`esp32_s3_project.csv`](./esp32_s3_project.csv) — all components listed with DigiKey part numbers. Key ICs:
+See [`SpecVue.csv`](./SpecVue.csv) — all components listed with DigiKey part numbers. Key ICs:
 
 | Ref | Part | Package | DigiKey (or equivalent) |
 |-----|------|---------|------------------------|
