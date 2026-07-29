@@ -176,9 +176,9 @@ All LEDs have ~470 Ω series current-limiting resistors.
 
 ## Antenna
 
-**Texas Instruments SWRA117D (AN1)** — 2.4 GHz chip antenna, left-edge placement.
+**AE1** — 2.4 GHz PCB antenna (TI SWRA117D reference design), left-edge placement.
 
-The antenna is a compact ceramic chip antenna with a ground clearance keep-out area beneath it. The RF feed uses a pi-network (C20, C21, L6) for impedance matching.
+This is a PCB trace antenna based on Texas Instruments application note SWRA117D. It uses an inverted-F or meandered PCB trace pattern on the board edge with a ground clearance keep-out area beneath it. The RF feed uses a pi-network (C20, C21, L6) for impedance matching. No separate antenna component is needed — the antenna is part of the PCB itself.
 
 ## PCB Stackup
 
