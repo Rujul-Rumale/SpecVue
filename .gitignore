@@ -1,0 +1,35 @@
+# KiCad auto-save and backup files
+*-autosave-*
+*~
+_backup_*.sch
+_backup_*.kicad_pcb
+fp-info-cache
+*.lck
+
+# KiCad project local settings
+*.kicad_prl
+
+# 3D models cache
+*.3d_cache
+*.3d_shapes
+
+# OS files
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# PDFs and other generated docs (track schematics.pdf/PCB layout.pdf only if desired)
+*.pdf
+*.dxf
+
+# Database
+database/
+
+# Fabrication output (regenerate from source)
+production/*.zip
+production.zip
+production/*.csv
+production/*.ipc
+
+# Preview
+preview.png
