@@ -300,4 +300,8 @@ The 90×17 mm aspect fits within a standard glasses temple arm. No mounting hole
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+This hardware design is released under the [CERN Open Hardware Licence Version 2 - Permissive](https://ohwr.org/cern_ohl_p_v2.txt) (`CERN-OHL-P-2.0`).
+
+Copyright (c) 2026 Rujul Rumale.
+
+You may use, study, modify, manufacture, and distribute this design and products made from it; you must retain the copyright and licence notices. See [LICENSE](LICENSE) for the full text.
