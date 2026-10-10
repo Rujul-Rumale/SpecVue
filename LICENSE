@@ -1,13 +1,3 @@
-﻿Copyright (c) 2026 Rujul Rumale
-
-SPDX-License-Identifier: CERN-OHL-P-2.0
-
-This hardware design ("SpecVue") is released under the CERN Open Hardware
-Licence Version 2 - Permissive. Anyone may use, study, modify, manufacture
-and distribute this design and products made from it, provided the copyright
-and licence notices are retained. The full licence text follows.
-
-===============================================================================
 CERN Open Hardware Licence Version 2 - Permissive
 
 
@@ -207,4 +197,3 @@ to the Product.
   7.4 This Licence shall not be enforceable except by a Licensor
       acting as such, and third party beneficiary rights are
       specifically excluded.
-
