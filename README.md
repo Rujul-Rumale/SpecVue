@@ -305,3 +305,7 @@ This hardware design is released under the [CERN Open Hardware Licence Version 2
 Copyright (c) 2026 Rujul Rumale.
 
 You may use, study, modify, manufacture, and distribute this design and products made from it; you must retain the copyright and licence notices. See [LICENSE](LICENSE) for the full text.
+
+---
+
+![Views](https://komarev.com/ghpvc/?username=Rujul-Rumale&repo=SpecVue&label=Views&color=0e75b6)
