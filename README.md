@@ -308,4 +308,4 @@ You may use, study, modify, manufacture, and distribute this design and products
 
 ---
 
-![Views](https://komarev.com/ghpvc/?username=Rujul-Rumale&repo=SpecVue&label=Views&color=0e75b6)
+![Views](https://hits.sh/github.com/Rujul-Rumale/SpecVue.svg?style=flat-square&label=views&color=0e75b6&labelColor=555)
